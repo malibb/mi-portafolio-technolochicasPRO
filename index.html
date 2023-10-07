@@ -14,6 +14,9 @@
     <!-- Link a iconos de booststrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
+
+    <!-- Link a mi css, siempre va hasta abajo de los archivos externos -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -37,7 +40,7 @@
 
         <section id="sobre-mi" class="vh-100 px-4 py-5 my-5 text-center d-flex justify-content-center align-items-center">
             <div>
-                <img class="d-block mx-auto mb-4" src="assets/perfil.jpg" alt="" width="300" height="300">
+                <img class="d-block mx-auto mb-4" src="assets/logoweb.avif" alt="" width="300" height="300">
             <h1 class="display-5 fw-bold text-body-emphasis">Malinali Becerril</h1>
             <h5 class="fw-bold text-body-emphasis">De día programadora, de noche doy clases, y el fin de semana no estoy c:</h5>
 
@@ -55,8 +58,8 @@
         <section id="habilidades" class="text-center px-4 py-5" id="featured-3">
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
               <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                  <img class="d-block mx-auto mb-4" src="assets/perfil.jpg" alt="" width="50" height="50">
                 </div>
                 <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
                 <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
@@ -66,7 +69,7 @@
                 </a>
               </div>
               <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
                   <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
                 </div>
                 <h3 class="fs-2 text-body-emphasis">Estudiante</h3>
@@ -92,13 +95,13 @@
         </section>
 
         <section id="proyectos" class="px-4 py-5" id="custom-cards">
-            <h2 class="pb-2 border-bottom">Custom cards</h2>
+            <h2 class="pb-2 border-bottom">Proyectos</h2>
         
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-1 py-1">
               <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
                   <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi clon de google</h3>
                     <ul class="d-flex list-unstyled mt-auto">
                       <li class="me-auto">
                         <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
@@ -119,7 +122,7 @@
               <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
                   <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi portafolio</h3>
                     <ul class="d-flex list-unstyled mt-auto">
                       <li class="me-auto">
                         <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
@@ -140,7 +143,7 @@
               <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
                   <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Juegos de JavaScript</h3>
                     <ul class="d-flex list-unstyled mt-auto">
                       <li class="me-auto">
                         <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
@@ -162,7 +165,7 @@
                 <div class="col">
                   <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi página de hoobies</h3>
                       <ul class="d-flex list-unstyled mt-auto">
                         <li class="me-auto">
                           <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
@@ -183,7 +186,7 @@
                 <div class="col">
                   <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+                      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Ranitas</h3>
                       <ul class="d-flex list-unstyled mt-auto">
                         <li class="me-auto">
                           <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
@@ -204,7 +207,7 @@
                 <div class="col">
                   <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Grid</h3>
                       <ul class="d-flex list-unstyled mt-auto">
                         <li class="me-auto">
                           <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
@@ -262,10 +265,12 @@
 
 
         <section id="contacto" class="px-4 py-5 my-5 text-center">
-            <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-            <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
+            <img class="d-block mx-auto mb-4" src="/assets/correo.png" alt="" width="100" height="85">
+            <h1 class="display-5 fw-bold text-body-emphasis">Ayúdame a ayudarte</h1>
             <div class="col-lg-6 mx-auto">
-              <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+              <p class="lead mb-4">Si necesitas ayuda con proyectos de desarrollo web, temario  de desarrollo web e ingeniería de datos.
+                Puedes agendar una mentoria o contactarme con la información de tu proyecto.
+              </p>
               <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                 <a class="fs-2 text-dark" target="_blank" href="mailto:malinali@correo.com">
                 <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contáctame</button></a>
@@ -300,6 +305,8 @@
             </ul>
         </footer>
     </div>
+
+    <!-- Link a el código de Js de bootstrap para que funciones los elementos dinámicos: carrusel, dropdowns, tooltips -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
